@@ -1,11 +1,11 @@
 {
   "lang": "en-us",
-  "name": "Temperature converter app",
-  "short_name": "Temperature converter",
-  "description": "A basic temperature converter application that can convert to and from Celsius, Kelvin, and Fahrenheit",
-  "start_url": "./",
-  "background_color": "#2f3d58",
-  "theme_color": "#2f3d58",
+  "name": "SyncGaming",
+  "short_name": "SynGame",
+  "description": "A Social Gaming app",
+  "start_url": "/",
+  "background_color": "#00000",
+  "theme_color": "#558298",
   "orientation": "any",
   "display": "standalone",
   "icons": [
