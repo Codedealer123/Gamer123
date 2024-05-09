@@ -19,7 +19,8 @@
         navigator.serviceWorker.register('./sw.js', { scope: './' });
       }
     </script>
-    <script src="./JS/script.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="./public/js/app.js"></script>
     <link rel="manifest" href="./manifest.json">
     <title>SyncGaming</title>
   </head>
@@ -38,8 +39,9 @@
       </div>
       <div id="WhatSup">
         <p>Coming Soon!</p>
-        <a href=""
       </div>
     </div>    
+    <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+    <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
   </body>
 </html>
