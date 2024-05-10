@@ -13,9 +13,6 @@
   "version": "1.0.0",
   "description": "The Auth0 Server for SyncGaming",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "author": "Mukilan",
   "license": "ISC"
 }
