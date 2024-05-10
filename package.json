@@ -1,0 +1,8 @@
+{
+  "name": "OAuth0 Server",
+  "version": "1.0.0",
+  "description": "OAuth0 Server for SyncGaming",
+  "scripts": {
+    "start": node server.js
+  }
+}
