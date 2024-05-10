@@ -1,5 +1,9 @@
 body {
     text-align: center;
+    text-rendering: optimizeSpeed;
+    text-shadow: 1px;
+    background-color: #2d3b41;
+    background-blend-mode: soft-light;
       
 }
 
