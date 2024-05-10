@@ -14,13 +14,13 @@
     <script src="./Libs/Jquery/jquery.min.js"></script>
     <script src="./Libs/JqueryUI/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="./Libs/JqueryUI/jquery-ui.min.css">
+    <script src="./JS/script.js"></script>
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./sw.js', { scope: './' });
       }
     </script>
-    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
-    <script src="./public/js/app.js"></script>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="manifest" href="./manifest.json">
     <title>SyncGaming</title>
   </head>
@@ -40,22 +40,6 @@
       <div id="WhatSup">
         <p>Coming Soon!</p>
       </div>
-    </div>    
-    <div class="hidden" id="gated-content">
-      <p>
-        You're seeing this content because you're currently
-        <strong>logged in</strong>.
-      </p>
-      <label>
-        Access token:
-        <pre id="ipt-access-token"></pre>
-      </label>
-      <label>
-        User profile:
-        <pre id="ipt-user-profile"></pre>
-      </label>
     </div>
-    <button id="btn-login" disabled="true" onclick="login()">Log in</button>
-    <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
   </body>
 </html>
