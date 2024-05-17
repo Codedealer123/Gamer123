@@ -2,6 +2,8 @@
   "name": "SyncGaming",
   "background_color": "#000000",
   "description": "A Social Gaming App",
+  "start_url": "https://SyncGaming.netlify.app",
+  "display": "standalone",
   "icons": [
     {
       "src": "icons/512.png",
