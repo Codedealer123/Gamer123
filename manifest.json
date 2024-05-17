@@ -1,17 +1,24 @@
 {
-  "lang": "en-us",
-  "name": "SyncGaming",
-  "short_name": "SynGame",
-  "description": "A Social Gaming app",
-  "start_url": "/",
-  "background_color": "#000000",
-  "theme_color": "#558298",
-  "orientation": "any",
+  "background_color": "#ffffff",
+  "description": "Gaming App",
+  "dir": "ltr",
   "display": "standalone",
-    "icons": [
-      {
-        "src": "/ios/180.png",
-        "type": "image/png"
-      }
-    ]
+  "name": "syncgaming.netlify",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "syncgaming.netlify",
+  "start_url": "/",
+  "theme_color": "#558298",
+  "icons": [
+    {
+      "src": "./icon512.png",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en",
+  "categories": [
+    "entertainment",
+    "games",
+    "kids"
+  ]
 }
