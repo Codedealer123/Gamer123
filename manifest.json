@@ -1,15 +1,12 @@
 {
+  "name": "SyncGaming",
   "background_color": "#000000",
   "description": "A Social Gaming App",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "SyncGaming",
-  "theme_color": "#558298",
   "icons": [
-      {
-        "src": "icons/512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ]
+    {
+      "src": "icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
