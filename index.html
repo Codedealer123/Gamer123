@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="./Libs/JqueryUI/jquery-ui.min.css">
     <script src="./JS/script.js"></script>
     <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js', { scope: './' });
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('./sw.js')
       }
     </script>
+    
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="manifest" href="./manifest.json">
     <title>SyncGaming</title>
