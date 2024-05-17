@@ -4,23 +4,12 @@
   "dir": "ltr",
   "display": "standalone",
   "name": "SyncGaming",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "SynGame",
-  "start_url": "/",
   "theme_color": "#558298",
   "icons": [
-    {
-      "src": "./512.png",
-      "type": "image/png"
-    }
-  ],
-  "lang": "en",
-  "categories": [
-    "entertainment",
-    "games",
-    "kids",
-    "personalization"
-  ],
-  "id": "com.syncgaming.app"
+      {
+        "src": "icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
 }
