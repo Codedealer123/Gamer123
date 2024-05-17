@@ -8,18 +8,10 @@
   "theme_color": "#558298",
   "orientation": "any",
   "display": "standalone",
-  {
     "icons": [
       {
         "src": "/ios/180.png",
-        "sizes": "180x180"
-      },
-    ],
-  }
-  "id": "com.sync.gaming",
-  "categories": [
-    "entertainment",
-    "games",
-    "social"
-  ]
-},
+        "type": "image/png"
+      }
+    ]
+}
