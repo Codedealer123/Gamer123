@@ -1,12 +1,12 @@
 {
-  "background_color": "#ffffff",
-  "description": "Gaming App",
+  "background_color": "#000000",
+  "description": "A Social Gaming App",
   "dir": "ltr",
   "display": "standalone",
-  "name": "syncgaming.netlify",
+  "name": "SyncGaming",
   "orientation": "any",
   "scope": "/",
-  "short_name": "syncgaming.netlify",
+  "short_name": "SynGame",
   "start_url": "/",
   "theme_color": "#558298",
   "icons": [
@@ -19,6 +19,8 @@
   "categories": [
     "entertainment",
     "games",
-    "kids"
-  ]
+    "kids",
+    "personalization"
+  ],
+  "id": "com.syncgaming.app"
 }
