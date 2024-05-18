@@ -16,20 +16,22 @@
     <link rel="stylesheet" href="./Libs/JqueryUI/jquery-ui.min.css">
     <script src="./JS/script.js"></script>
     <script>
-      if ("serviceWorker" in navigator) {
-  // Register a service worker hosted at the root of the
-  // site using the default scope.
-  navigator.serviceWorker.register("/sw.js").then(
-    (registration) => {
-      console.log("Service worker registration succeeded:", registration);
-    },
-    (error) => {
-      console.error(`Service worker registration failed: ${error}`);
-    },
-    );
-    } else {
-      console.error("Service workers are not supported.");
-    }
+      if ('serviceWorker' in navigator && 'PushManager' in window) {
+  console.log('Service Worker and Push are supported');
+
+  navigator.serviceWorker.register('sw.js')
+  .then(function(swReg) {
+    console.log('Service Worker is registered', swReg);
+
+    swRegistration = swReg;
+  })
+  .catch(function(error) {
+    console.error('Service Worker Error', error);
+  });
+  } else {
+  console.warn('Push messaging is not supported');
+  pushButton.textContent = 'Push Not Supported';
+  }
     </script>
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="manifest" href="./manifest.json">
