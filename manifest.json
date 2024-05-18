@@ -18,6 +18,13 @@
   "dir": "auto",
   "lang": "en",
   "orientation": "any",
+  "shortcuts": [
+    {
+      "name": "SynCalling",
+      "url": "https://syncalling.netlify.app"
+    }
+  ],
+  "scope": "https://syncgaming.netlify.app",
   "categories": [
     "entertainment",
     "games",
