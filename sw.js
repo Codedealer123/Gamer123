@@ -52,3 +52,14 @@ self.addEventListener('fetch', (event) => {
     })());
   }
 });
+
+Notification.requestPermission();
+
+self.addEventListener('push', (event) => {
+  event.waitUntil(
+    self.registration.showNotification('Test Notification', {
+      body: 'Test Notification',
+      icon: './512.png',
+    });
+  );
+});
