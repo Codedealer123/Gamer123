@@ -6,10 +6,16 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "./512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
+        "src": "./180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any"
+    },
+    {
+        "src": "./512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
     }
   ],
   "theme_color": "#000000",
